@@ -1,7 +1,5 @@
 # OrderBook
 
-Task
-
 «Order book» task
 
 Before you start
@@ -32,10 +30,15 @@ consists from sell orders. See example order book and format of output for your 
 Order book: ${order_book_name}
 
 BID          ASK
+
 Volume@Price – Volume@Price
+
 10@100.1  – 11@100.2
+
 4@100.0    – 14@100.21
+
 98@99.98  – 14@100.23
+
 -----------      – 12@101.00
 
 Bid ladder is sorted from the highest bid price at the top to lowest price at the bottom.
