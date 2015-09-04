@@ -83,6 +83,7 @@ public class OrderBookParser {
         if (!fileName.endsWith(".xml")) exit("This is not an XML file. Can't proceed. Please enter valid one");
         File f = new File(fileName);
         if (!f.exists()) exit("File does not exist. Please check entered path");
+        System.out.println("Try to parse " + f.getAbsolutePath() + ". Please wait a moment.");
 
         OrderBookParser orderBookParser = new OrderBookParser(f);
         orderBookParser.go();
